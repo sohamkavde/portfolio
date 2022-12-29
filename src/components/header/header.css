@@ -1,0 +1,193 @@
+:root{
+    --bgcolor:#3b2f2f;
+    --color:#2323ff;
+    --text:#ffff;
+}
+header{
+    width: 100%;
+    min-height: 200px;
+}
+nav{
+    width: 100%;
+    background-color: var(--bgcolor);
+    /* background-image: linear-gradient(10deg,var(--bgcolor),var(--color)); */
+    min-height: 40px;
+    display: flex;
+    justify-content: space-around;
+    color:var(--text);
+}
+.name{
+    width:25%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    font-family:'ui-monospace';
+    font-size: 3vw;;
+    /* text-shadow: -2px 2px 6px black; */
+}
+.links{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    height: inherit;
+
+}
+.nav-links{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links>a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+/* bg image */
+/* https://images.pexels.com/photos/6044916/pexels-photo-6044916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
+ */
+.bgimage{
+    position: relative;
+    background-image: url('../../image/bg.jpg');
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    /* display */
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.bgblur{
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    z-index: 1;
+    background-color: #ffff;
+    opacity: 0.4;
+}
+.bgname{
+    position: relative;
+    width: 50%;
+    color: var(--color);
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    opacity: 0.8;
+    background-color: #3b2f2f;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 2;
+}
+.index-center{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+}
+.index-center>p , .index-center>h1{
+    text-align: center;  
+    color: #fff;
+    padding: 4px 10px 4px 10px;
+
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+}
+.button>button{
+    border: none;
+    padding: 5px 10px 5px 10px;
+
+}
+.button>button>a{
+    text-decoration: none;
+    color: var(--bgcolor);
+}
+
+/* intro image */
+.soham-intro-image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-background{
+    position: absolute;
+    z-index: 2;
+    background-color: var(--bgcolor);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px 100px 0px 118px;
+}
+.intro-img{
+    width: 50%;
+    height: 50%;
+    
+}
+.intro-img>img{
+    border-radius: 10px;
+}
+
+@media (max-width:980px) {
+    
+    nav{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .name{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 10px;
+        font-size: 5vw;
+    }
+    .links{
+        width: 100%;    
+        justify-content: center;
+    }
+    .nav-links{
+        font-size: 3vw;
+    }
+    /* bgimage */
+    .bgimage{
+        background-image: url('../../image/soham.jpeg');
+        flex-direction: column-reverse;
+    }
+    .bgname{
+        width: 100%;     
+    }
+    .soham-intro-image{
+       display: none; 
+    }   
+}
+@media (max-width:420px) {
+    header{
+        height: 200px;
+    }
+    .bgimage{
+        height: 200px;
+    }
+    .center,.index-center{
+        width: 100%;
+    }
+}
+@media (min-width:1000px) {
+    #skillsHead,#educationHead,#projectsHead,#contactmeHead{
+        font-size: 4vw;
+    }
+}
