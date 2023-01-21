@@ -13,7 +13,8 @@ const bgimage = () => {
               <p>Final Year Student,Web Developer</p>
               <div className="button">
                 <button><a href={pdf} download>Resume</a></button>
-                <button><a href="https://www.linkedin.com/in/soham-kavde-45141520a/" target="_blank" rel="noopener noreferrer">Connect me</a> </button>
+                <p><a href="https://www.linkedin.com/in/soham-kavde-45141520a/" target="_blank" rel="noopener noreferrer">Let's talk</a></p>
+                {/* <button><a href="https://www.linkedin.com/in/soham-kavde-45141520a/" target="_blank" rel="noopener noreferrer">Connect me</a> </button> */}
               </div>
             </div>
         </div>

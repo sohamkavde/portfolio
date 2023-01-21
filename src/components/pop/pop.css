@@ -1,0 +1,68 @@
+#pop{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal{
+    width: 70%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+    background-color: var(--bgcolor); 
+}
+.modal-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 0% 25% 0% 25%;
+    background-color: var(--text);
+}
+.modal-img>img{
+    border-radius: 50%;
+}
+.talk-about{
+    width: 70%;
+    margin-top: 10px;
+    color: var(--text);
+}
+.talk-about>span{
+    display: inline-block;
+    width: 50%;
+}
+.action-modal{
+    margin-top: 18px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    font-size: 2vw;
+}
+.action-modal>p>a{
+    background-color: darkorange;
+    color: #ffff;
+    font-size: medium;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px 0px;
+    font-weight: bold;
+
+}
+@media (max-width:980px){
+    #pop{
+        height: auto;
+        padding: 10px;
+    }
+    .talk-about{
+        font-size: 2vw;
+    }
+    .action-modal>p>a{
+        padding: 4px;
+        font-size: 2vw;
+        border-radius: 6px 0px;
+    }
+}

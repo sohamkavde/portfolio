@@ -29,6 +29,9 @@
     color: var(--color);
     font-size: 2vw;
 }
+.subdesign>b{
+    font-size: 1.3vw;
+}
 .design::before{
     content: "";
     position: absolute;
@@ -40,8 +43,15 @@
     background: #fff;
     border: 2px solid #0563bb;
 }
+.subdesign::before{
+    width: 10px;
+    height: 10px;
+}
 @media (max-width:980px){
     .design>b{
         font-size: 5vw;
+    }
+    .subdesign>b{
+        font-size: 3vw;
     }
 }

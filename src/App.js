@@ -5,6 +5,7 @@ import Footer from './components/footer/footer';
 import Education from './components/education/education';
 import Project from './components/projects/project';
 import Skills from './components/skills/skills';
+import Pop from './components/pop/pop';
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
     <Project/>
     <Education/>
     <Contact />
+    <Pop/>
     <Footer/>
     </>
 

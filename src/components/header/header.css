@@ -113,7 +113,15 @@ nav{
     text-decoration: none;
     color: var(--bgcolor);
 }
-
+.button>p>a{
+    background-color: darkorange;
+    color: #ffff;
+    font-size: medium;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px 0px;
+    font-weight: bold;
+}
 /* intro image */
 .soham-intro-image{
     position: relative;
@@ -145,7 +153,6 @@ nav{
 }
 
 @media (max-width:980px) {
-    
     nav{
         flex-direction: column;
         padding-bottom: 10px;
@@ -163,6 +170,9 @@ nav{
     .nav-links{
         font-size: 3vw;
     }
+   .button{
+    margin-top: 40px;
+   }
     /* bgimage */
     .bgimage{
         background-image: url('../../image/soham.jpeg');

@@ -23,7 +23,7 @@ const project = () => {
         <div className="project-img">
           <img src={Image2} alt="Projects" width="100%" height="100%" />
         </div>
-        <div className="project-name"><p>OpenSea Clone</p><p><a href="#">Live</a></p></div>
+        <div className="project-name"><p>OpenSea Clone</p><p><a href="https://opensea-six.vercel.app/">Live</a></p></div>
       </div>
 
 
@@ -31,7 +31,7 @@ const project = () => {
         <div className="project-img">
           <img src={Image3} alt="Projects" width="100%" height="100%" />
         </div>
-        <div className="project-name"><p>ToDo</p><p><a href="#">Live</a></p></div>
+        <div className="project-name"><p>ToDo</p><p><a href="https://todo-zeta-cyan.vercel.app/">Live</a></p></div>
       </div>
 
 
