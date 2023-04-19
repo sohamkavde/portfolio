@@ -5,6 +5,7 @@ import Footer from './components/footer/footer';
 import Education from './components/education/education';
 import Project from './components/projects/project';
 import Skills from './components/skills/skills';
+import Leetcode from './components/leetcode50days/leetcode';
 import Pop from './components/pop/pop';
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Header />
     <Skills/>
     <Project/>
+    <Leetcode/>
     <Education/>
     <Contact />
     <Pop/>

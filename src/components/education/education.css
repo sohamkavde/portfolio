@@ -1,6 +1,6 @@
 #education{
     width: 100%;
-    min-height: 300px;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -48,6 +48,9 @@
     height: 10px;
 }
 @media (max-width:980px){
+    #education{
+        min-height: auto;
+    }
     .design>b{
         font-size: 5vw;
     }

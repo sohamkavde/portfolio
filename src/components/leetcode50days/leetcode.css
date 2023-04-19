@@ -1,0 +1,31 @@
+#leetcode{
+    padding-top: 20px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;    
+}
+.leetcode-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    padding-bottom: 20px;
+    font-size: 7vw;
+    height: 50px;
+}
+#leetcodeimg{
+    width: 75%;
+}
+#leetcodeimg img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:980px) {
+    #leetcode{
+        min-height: auto;
+    }
+}

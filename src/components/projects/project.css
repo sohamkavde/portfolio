@@ -1,5 +1,6 @@
 #projects{
     width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +39,9 @@
     font-size: 2vw;
 }
 @media (max-width:980px) {
+    #projects{
+        min-height: auto;
+    }
     .project-container{
         width: 90%;
     }

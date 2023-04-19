@@ -1,6 +1,7 @@
 #skills{
     position: relative;
     width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -46,9 +47,9 @@
     margin-bottom: 10px;
 }
 @media (max-width:980px){
-    /* .progress-content>p>span:first-child{
-        font-size: 3.4vw;
-    } */
+    #skills{
+        min-height: auto;
+    }
     .progress-content , .progress-content>p,.progress-content>progress{
         font-size: 3.4vw;
         width: 100%;

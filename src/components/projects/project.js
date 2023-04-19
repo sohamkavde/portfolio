@@ -4,7 +4,7 @@ import Image1 from '../../image/p1.JPG';
 import Image2 from '../../image/p2.JPG';
 import Image3 from '../../image/p3.JPG'
 import Image4 from '../../image/p4.JPG';
-// import Image5 from '../../image/p5';
+import Image5 from '../../img/github.JPG';
 // import Image6 from '../../image/p6';
 const project = () => {
   return (
@@ -42,13 +42,14 @@ const project = () => {
         <div className="project-name"><p>text-transformer</p><p><a href="https://text-work.vercel.app/">Live</a></p></div>
       </div>
 
-
-      {/* <div className="project-container">
+      <div className="project-container">
         <div className="project-img">
           <img src={Image5} alt="Projects" width="100%" height="100%" />
         </div>
-        <div className="project-name"><p>Free Versant test</p><p><a href="#">Live</a></p></div>
+        <div className="project-name"><p>Github</p><p><a href="https://github.com/sohamkavde/">Live</a></p></div>
       </div>
+
+      {/* 
 
 
       <div className="project-container">
