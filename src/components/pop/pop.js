@@ -4,7 +4,7 @@ import Img from '../../image/sonu.jpeg'
 const pop = () => {
   return (
     <section id='pop'>
-        <div className="modal">
+        <div className="modal" data-aos="zoom-in-down">
             <div className="modal-img">
                 <img src={Img} alt="Soham Kavde" width="100%" height="100%"/>
             </div>

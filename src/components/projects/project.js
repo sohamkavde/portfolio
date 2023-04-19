@@ -12,14 +12,14 @@ const project = () => {
         <div className="project-head" id='projectsHead'>
           Projects
         </div>
-      <div className="project-container">
+      <div className="project-container" data-aos="flip-left">
         <div className="project-img">
           <img src={Image1} alt="Projects" width="100%" height="100%" />
         </div>
         <div className="project-name"><p>Pixel perfect</p><p><a href="https://pixel-perfect.vercel.app/">Live</a></p></div>
       </div>
 
-      <div className="project-container">
+      <div className="project-container" data-aos="flip-right">
         <div className="project-img">
           <img src={Image2} alt="Projects" width="100%" height="100%" />
         </div>
@@ -27,7 +27,7 @@ const project = () => {
       </div>
 
 
-      <div className="project-container">
+      <div className="project-container" data-aos="flip-left">
         <div className="project-img">
           <img src={Image3} alt="Projects" width="100%" height="100%" />
         </div>
@@ -35,14 +35,14 @@ const project = () => {
       </div>
 
 
-      <div className="project-container">
+      <div className="project-container" data-aos="flip-right">
         <div className="project-img">
           <img src={Image4} alt="Projects" width="100%" height="100%" />
         </div>
         <div className="project-name"><p>text-transformer</p><p><a href="https://text-work.vercel.app/">Live</a></p></div>
       </div>
 
-      <div className="project-container">
+      <div className="project-container" data-aos="flip-left">
         <div className="project-img">
           <img src={Image5} alt="Projects" width="100%" height="100%" />
         </div>

@@ -2,9 +2,9 @@ import React from 'react';
 import './skills.css';
 const skills = () => {
     return (
-        <section id='skills'>
+        <section id='skills' >
             <div className="skills-head" id='skillsHead'>Skills</div>
-            <div className="skill-content">
+            <div className="skill-content" data-aos="fade-right">
                 <div className="progress-content">
                     <p><span>HTML</span> <span>100%</span></p>
                     <progress id="file" value="100" max="100"> 100% </progress>

@@ -8,7 +8,7 @@ const bgimage = () => {
         <div className="bgname">
             <div className="center">              
             </div>
-            <div className='index-center'>
+            <div className='index-center' data-aos="fade-up">
               <h1>Soham Kavde</h1>
               <p>Final Year Student,Web Developer</p>
               <div className="button">
@@ -18,7 +18,7 @@ const bgimage = () => {
               </div>
             </div>
         </div>
-        <div className="soham-intro-image">
+        <div className="soham-intro-image" data-aos="fade-up">
           <div className="image-background">
             <div className="intro-img">
                 <img src={Image} alt="Soham Kavde" width="100%" height="100%" />
